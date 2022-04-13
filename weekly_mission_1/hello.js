@@ -1,0 +1,1 @@
+console.log("hello Launch X desde mi WSL node.js")
