@@ -1,3 +1,6 @@
+
+// Me apoye con https://github.com/LaunchX-InnovaccionVirtual/MissionNodeJS/discussions/50
+
 const Pokemon = require('./pokemon')
 
 const pikachu = new Pokemon("pikachu")
@@ -6,13 +9,13 @@ const squirtle = new Pokemon("squirtle")
 const charmander = new Pokemon("charmander")
 
 pikachu.sayHello()
-pikachu.sayMessage("Heey!")
+pikachu.sayMessage("Pika pika!")
 
 bulbasaur.sayHello()
-bulbasaur.sayMessage("Heey!")
+bulbasaur.sayMessage("Bulbasauuurrr!")
 
 charmander.sayHello()
-charmander.sayMessage("Heey!")
+charmander.sayMessage("Chaaaar!")
 
 squirtle.sayHello()
-squirtle.sayMessage("Heey!")
+squirtle.sayMessage("Squirrrtleee!")

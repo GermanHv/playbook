@@ -5,10 +5,12 @@ class Pokemon {
     }
 
     sayHello(){
-        console.log("Mi pokemon"+ this.name +"te saluda :)");
+        console.log("Mi pokemon "+ this.name +" te saluda :)");
     }
 
-    sayMessage(){
-
+    sayMessage(message){
+        console.log (`${message}`)
     }
 }
+
+module.exports = Pokemon
